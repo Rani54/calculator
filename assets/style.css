@@ -1,0 +1,63 @@
+.demo
+	{
+	    position: fixed;
+    background: linear-gradient(to top, rgba(0,255,0,0.3), rgba(0,255,0,0.9));
+    border: 2px solid red;
+    box-shadow: 0px 0px 7px grey;
+    padding-bottom: 10px;
+    top:25%;
+    left:38%;
+	}
+	h1
+	{
+		color: #ffeb3bd9;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+   margin-top:4.5em;
+
+    text-shadow: 3px 4px 10px red;
+	}
+		.mainbtn
+		{
+	width: 80%;
+    height: 30px;
+    text-align: right;
+    font-size: 18px;
+    box-shadow: inset 0px 0px 2px grey;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right: 6px;
+    margin-top: 10px;
+
+		}
+		.button
+		{
+			    
+    font-size: 15px;
+    font-weight: bold;
+    width:45px;
+    height: 45px;
+        box-shadow: 0 0 2px grey;
+        
+		}
+		.button1
+		{
+			    
+    background:linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+		}
+		.btn1
+		{
+			    
+    background:linear-gradient(to top, red,red);
+		}
+		.button2
+		{
+			    
+    font-size: 18px;
+    font-weight: bold;
+    width:45px;
+    height: 93px;
+    box-shadow: 0 0 2px grey;
+    background:linear-gradient(to top, rgba(255,0,0,0.1), rgba(255,0,0,1)); 
+		}

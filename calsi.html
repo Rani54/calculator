@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<script type="text/javascript" src="assets/custom.js"></script>
+</head>
+<body align="center" bgcolor="Violet">
+		<h1>Calculator</h1>
+			<div class="demo">
+
+				<form id="frm1" name="form1" >
+					<input class="mainbtn" type="text" name="main">
+				</form>
+				<table align="center">
+					<tr>
+						<td>
+							<input class="button btn1" type="button" name="btnc" value="C" onclick="clearnum()">
+						</td>
+						<td>
+							<input class="button" type="button" name="btnbak" value="<" onclick="backfun()">
+						</td>
+						<td>
+							<input class="button" type="button" name="btndiv" value="/" onclick="myFunction('/')">
+						</td>
+						<td>
+							<input class="button" type="button" name="btnmul" value="*" onclick="myFunction('*')">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="button" type="button" name="btn7" value="7" onclick="myFunction(7)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btn8" value="8" onclick="myFunction(8)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btn9" value="9" onclick="myFunction(9)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btnmin" value="-" onclick="myFunction('-')">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="button" type="button" name="btn4" value="4" onclick="myFunction(4)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btn5" value="5" onclick="myFunction(5)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btn6" value="6" onclick="myFunction(6)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btnadd" value="+" onclick="myFunction('+')">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="button" type="button" name="btn1" value="1" onclick="myFunction(1)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btn2" value="2" onclick="myFunction(2)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btn3" value="3" onclick="myFunction(3)">
+						</td>
+						<td rowspan="2">
+							<input class="button2" type="button" name="btneql" value="=" onclick="equal()">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input class="button button1" type="button" name="btn0" value="0" onclick="myFunction(0)">
+						</td>
+						<td>
+							<input class="button" type="button" name="btnmod" value="%" onclick="myFunction('%')">
+						</td>
+						<td>
+							<input class="button" type="button" name="btndot" value="." onclick="myFunction('.')">
+						</td>
+						
+					</tr>
+				</table>
+			</div>
+	</body>
+</html>
